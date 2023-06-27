@@ -52,7 +52,7 @@ def currentStyle():
 
 if __name__ == "__main__":
 
-    push(fontname=font.HELVETICA, fontsize=12)
+    push(fontname=font.HELVETICA, fontsize=40)
     style = currentStyle()
     push(indent=36)
     push(italic=True)
