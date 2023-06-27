@@ -16,7 +16,7 @@ class Style:
             if var == "fontname":
                 self.font = font.Base14(val)
             elif var == "fontsize":
-                self.fontsize = 14
+                self.fontsize = 12
             elif var == "italic":
                 self.font.setItalic(val)
             elif var == "bold":
