@@ -16,7 +16,7 @@ from .headfoot import Header, Footer
 
 
 fontSize = 20  # choose font size of text
-headingfontSizes = [18, 16, 14, 12, 10, 10, 10, 10]
+headingfontSizes = [28, 26, 24, 22, 20, 20, 20, 20]
 lineheight = fontSize * 1.2  # line height is 20% larger
 margin = 72
 
