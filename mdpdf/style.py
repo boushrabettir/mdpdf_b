@@ -16,7 +16,7 @@ class Style:
             if var == "fontname":
                 self.font = font.Base14(val)
             elif var == "fontsize":
-                self.fontsize = 40
+                self.fontsize = 20
             elif var == "italic":
                 self.font.setItalic(val)
             elif var == "bold":
@@ -52,7 +52,7 @@ def currentStyle():
 
 if __name__ == "__main__":
 
-    push(fontname=font.HELVETICA, fontsize=40)
+    push(fontname=font.HELVETICA, fontsize=20)
     style = currentStyle()
     push(indent=36)
     push(italic=True)
