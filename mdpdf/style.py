@@ -16,7 +16,7 @@ class Style:
             if var == "fontname":
                 self.font = font.Base14(val)
             elif var == "fontsize":
-                self.fontsize = 15
+                self.fontsize = val
             elif var == "italic":
                 self.font.setItalic(val)
             elif var == "bold":
@@ -26,7 +26,7 @@ class Style:
             else:
                 raise Exception("not valid Style attribute")
 
-        self.lineheight = self.fontsize * 1.2
+        self.lineheight = self.fontsize * 1.4
 
 
 def push(**kwargs):
