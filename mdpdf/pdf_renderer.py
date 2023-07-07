@@ -17,8 +17,8 @@ from .headfoot import Header, Footer
 
 fontSize = 10  # choose font size of text
 headingfontSizes = [18, 16, 14, 12, 10, 10, 10, 10]
-lineheight = fontSize * 1.5  # line height is 20% larger
-margin = 52
+lineheight = fontSize * 1.2  # line height is 20% larger
+margin = 72
 
 # For images, we are looking for a pattern in the alt text,
 # e.g. Some text { width =31% }
